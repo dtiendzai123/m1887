@@ -30,8 +30,8 @@ class KalmanFilter {
 
 // == Weapon Profiles ==
 const WeaponProfiles = {
-  "M1887": { recoilSmooth: 0.68, dragSensitivity: 1.6, aimLockStrength: 1.05, accuracyBoost: 1.15 },
-  "DEFAULT": { recoilSmooth: 0.8, dragSensitivity: 1.0, aimLockStrength: 1.0, accuracyBoost: 1.0 }
+  "M1887": { recoilSmooth: 1.0, dragSensitivity: 2.6, aimLockStrength: 1.8, accuracyBoost: 1.9 },
+  "DEFAULT": { recoilSmooth: 0.8, dragSensitivity: 2.0, aimLockStrength: 2.0, accuracyBoost: 2.0 }
 };
 
 // == AimLock System ==
