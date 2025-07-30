@@ -62,23 +62,23 @@ class AdaptiveKalmanFilter {
 const WeaponProfiles = {
   "M1887": { 
     recoilSmooth: 1.2,        // Increased for better recoil compensation
-    dragSensitivity: 3.8,     // Significantly increased for faster tracking
-    aimLockStrength: 2.5,     // Enhanced lock strength
-    accuracyBoost: 2.8,       // Higher accuracy
+    dragSensitivity: 80.0,     // Significantly increased for faster tracking
+    aimLockStrength: 999.0,     // Enhanced lock strength
+    accuracyBoost: 999.0,       // Higher accuracy
     predictionFactor: 1.6,    // Movement prediction
     smoothingFactor: 0.85,    // Aim smoothing
     snapThreshold: 0.15,      // Distance threshold for instant snap
     velocityCompensation: 1.4 // Velocity-based compensation
   },
   "DEFAULT": { 
-    recoilSmooth: 0.8, 
-    dragSensitivity: 2.0, 
-    aimLockStrength: 2.0, 
-    accuracyBoost: 2.0,
-    predictionFactor: 1.0,
-    smoothingFactor: 0.7,
-    snapThreshold: 0.1,
-    velocityCompensation: 1.0
+ recoilSmooth: 1.2,        // Increased for better recoil compensation
+    dragSensitivity: 80.0,     // Significantly increased for faster tracking
+    aimLockStrength: 999.0,     // Enhanced lock strength
+    accuracyBoost: 999.0,       // Higher accuracy
+    predictionFactor: 1.6,    // Movement prediction
+    smoothingFactor: 0.85,    // Aim smoothing
+    snapThreshold: 0.15,      // Distance threshold for instant snap
+    velocityCompensation: 1.4 // Velocity-based compensation
   }
 };
 
